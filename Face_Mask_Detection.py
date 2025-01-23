@@ -28,7 +28,7 @@ while True:
         cropped_face = img[y1:y2, x1:x2]
 
       face_resizes = cv2.resize(cropped_face, (128,128))
-      face_normalized = face_resized / 255.0
+      face_normalized = face_resizes / 255.0
       face_input = np.expand_dims(face_normalized, axis=0)
 
       prediction = model.predict(face_input)
