@@ -27,7 +27,7 @@ Ensure the custom model file is placed in the appropriate directory. Update the 
 ```
 Face-Mask-Detection/
   |-- Face_Mask_Detection.py
-  |-- trained_models/
+  |-- custom_models/
       |-- custom_face_mask_model.h5
       |-- mobilenet_face_mask_model.h5
       |-- resnet50_face_mask_model.h5
@@ -36,10 +36,10 @@ Face-Mask-Detection/
 
 ## Usage
 
-1. Place your trained model `.h5` file in the `custom_model` directory.
+1. Place your trained model `.h5` file in the `custom_models` directory.
 2. Update the path to the model in the script:
    ```python
-   model = load_model(r"path_to_your_trained_model.h5")
+   model = load_model(r"custom_models/your_trained_model.h5")
    ```
 3. Run the script to start the webcam:
    ```bash
