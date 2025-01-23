@@ -1,4 +1,4 @@
-# Face Mask Detection unsing Deep and Transfer Learning
+# Face Mask Detection using Deep and Transfer Learning
 
 This repository contains a set of deep learning models to detect whether a person is wearing a face mask or not. The models are built using TensorFlow and Keras, creating a custom **CNN** model and leveraging various pre-trained architectures such as [**MobileNet**](https://keras.io/api/applications/mobilenet/), [**VGG16**](https://keras.io/api/applications/vgg/), and [**ResNet50**](https://keras.io/api/applications/resnet/). Each model has been customized and fine-tuned for binary classification **(Mask/No Mask)**.
 
